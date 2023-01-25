@@ -1,0 +1,29 @@
+.button{
+    cursor: pointer;
+    margin: 1.2rem 0;
+}
+
+.priBtn{
+    background: var(--CTA-blue);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+
+    &:hover{
+        background: var(--white);
+        color: var(--CTA-blue);
+        border: 1px solid var(--CTA-blue);
+    }
+}
+
+.secBtn{
+    background: transparent;
+    color: var(--pri-text);
+    border: 1px solid var(--pri-text);
+    border-radius: 8px;
+
+    &:hover{
+        background: var(--pri-text);
+        color: var(--white);
+    }
+}
