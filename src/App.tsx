@@ -1,13 +1,12 @@
+import LoginPage from "./components/pages/loginPage";
+import AppRoutes from "./components/routes/appRoutes";
 
-import LoginPage from './components/pages/loginPage';
-
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-
-     <LoginPage/>
+      <AppRoutes />
     </div>
   );
 }
