@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import {useNavigate} from "react-router-dom";
 
 import Button from "../UI/button";
 import styles from "./styles/loginForm.module.scss";
@@ -10,6 +11,8 @@ type FormValues = {
 };
 
 const LoginForm = () => {
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -21,6 +24,7 @@ const LoginForm = () => {
   });
 
   const loggedIn = () => {
+    navigate("/dashboard");
     console.log("clicked");
   };
 

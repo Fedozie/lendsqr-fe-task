@@ -1,4 +1,3 @@
-import LoginPage from "./components/pages/loginPage";
 import AppRoutes from "./components/routes/appRoutes";
 
 import "./App.css";
