@@ -21,6 +21,7 @@ html{
   --pri-text: #213F7D;
   --sec-text: #545F7D;
   --CTA-blue: #39CDCC;
+  --CTA-blue-toned: rgba(55, 205, 205, 0.126);
   --border: rgba(84, 95, 125, 0.15);
 }
 

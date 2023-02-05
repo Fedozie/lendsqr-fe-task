@@ -27,7 +27,7 @@ const Navbar = () => {
             {data[0].map((customer) => (
               <li key={uuid()} className={styles.tabs}>
                 <img src={customer.icon} alt="Customers Icon" />
-                <p>{customer.text}</p>
+                <a>{customer.text}</a>
               </li>
             ))}
           </ul>
@@ -38,7 +38,7 @@ const Navbar = () => {
             {data[1].map((business) => (
               <li key={uuid()} className={styles.tabs}>
                 <img src={business.icon} alt="Businesses Icon" />
-                <p>{business.text}</p>
+                <a>{business.text}</a>
               </li>
             ))}
           </ul>
@@ -49,7 +49,7 @@ const Navbar = () => {
             {data[2].map((setting) => (
               <li key={uuid()} className={styles.tabs}>
                 <img src={setting.icon} alt="Settings Icon" />
-                <p>{setting.text}</p>
+                <a>{setting.text}</a>
               </li>
             ))}
           </ul>
