@@ -21,29 +21,90 @@ import auditLogs from "../assets/icons/auditLogs.png";
 
 export const data = [
     [
-        { icon: users, text: "Users" },
-        { icon: guarantors, text: "Guarantors" },
-        { icon: loans, text: "Loans" },
-        { icon: decisionModels, text: "Decision Models" },
-        { icon: savings, text: "Savings" },
-        { icon: loanRequests, text: "Loan Requests" },
-        { icon: whiteList, text: "Whitelist" },
-        { icon: karma, text: "Karma" },
+        { 
+            icon: users, 
+            text: "Users", 
+            url: "users" 
+        },
+        {   icon: guarantors,
+            text: "Guarantors", 
+            url: "guarantors" 
+        },
+        {   icon: loans, 
+            text: "Loans", 
+            url: "loans" 
+        },
+        {   icon: decisionModels, 
+            text: "Decision Models", 
+            url: "decision-modals" 
+        },
+        {   icon: savings, 
+            text: "Savings", 
+            url: "savings" 
+        },
+        {   icon: loanRequests, 
+            text: "Loan Requests", 
+            url: "loan-requests" 
+        },
+        {   icon: whiteList, 
+            text: "Whitelist", 
+            url: "white-list" 
+        },
+        {   icon: karma, 
+            text: "Karma", 
+            url: "karma" 
+        },
     ],
     [
-        { icon: organization, text: "Organization" },
-        { icon: loanRequests, text: "Loan Products" },
-        { icon: savingsProducts, text: "Saving Products" },
-        { icon: feesAndCharges, text: "Fees and Charges" },
-        { icon: transactions, text: "Transactions" },
-        { icon: services, text: "Services" },
-        { icon: serviceAccount, text: "Service Account" },
-        { icon: settlements, text: "Settlements" },
-        { icon: reports, text: "Reports" },
+        {   icon: organization, 
+            text: "Organization", 
+            url: "organization" 
+        },
+        {   icon: loanRequests, 
+            text: "Loan Products", 
+            url: "loan-products" 
+        },
+        {   icon: savingsProducts, 
+            text: "Saving Products", 
+            url: "savings-products" 
+        },
+        {   icon: feesAndCharges, 
+            text: "Fees and Charges", 
+            url: "fees-and-charges" 
+        },
+        {   icon: transactions, 
+            text: "Transactions", 
+            url: "transactions" 
+        },
+        {   icon: services, 
+            text: "Services", 
+            url: "services" 
+        },
+        {   icon: serviceAccount, 
+            text: "Service Account", 
+            url: "service-account" 
+        },
+        {   icon: settlements, 
+            text: "Settlements", 
+            url: "settlements" 
+        },
+        {   icon: reports, 
+            text: "Reports", 
+            url: "reports" 
+        },
     ],
     [
-        { icon: preferences, text: "Preferences" },
-        { icon: feesAndPricing, text: "Fees and Pricing" },
-        { icon: auditLogs, text: "Audit Logs" },
+        {   icon: preferences, 
+            text: "Preferences", 
+            url: "preferences"
+        },
+        {   icon: feesAndPricing, 
+            text: "Fees and Pricing", 
+            url:"fees-and-pricing"
+        },
+        {   icon: auditLogs, 
+            text: "Audit Logs", 
+            url: "audit-logs" 
+        },
     ]
 ];
