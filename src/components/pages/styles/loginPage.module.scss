@@ -11,4 +11,16 @@
     }
 }
 
+@media only screen and (max-width: 768px){
+    .container{
 
+
+        & > div:first-of-type{
+            display: none;
+        }
+
+        & > div:last-of-type{
+            width: 70%;
+        }
+    }
+}

@@ -62,3 +62,21 @@
         color: red;
     }
 }
+
+@media only screen and (max-width: 768px){
+    .container{
+        padding-left: 0;
+    }
+
+    .description{
+        text-align: center;
+    }
+
+    .form{
+
+
+        & .form-input{
+            width: 100%;
+        }
+    }
+}
